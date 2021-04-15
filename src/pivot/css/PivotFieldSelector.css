@@ -1,0 +1,17 @@
+.pfs_container {
+    width: 100%;
+}
+
+.pfs_vt {
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+
+}
+
+.pfs_title {
+    background-color:  lightgray;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+}

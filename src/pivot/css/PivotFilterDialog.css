@@ -1,0 +1,21 @@
+.pfd_content {
+    width: 300px;
+}
+
+.pfd_filter {
+    margin-bottom: 5px;
+    margin-left: 12px;
+    display:flex;
+    flex-direction: row;
+}
+
+.pfd_list {
+    width: 300px;
+    min-height: 200px;
+    max-height: 70vh;
+    overflow: auto;
+}
+
+.pfd_filtertext {
+    width: 200px;
+}

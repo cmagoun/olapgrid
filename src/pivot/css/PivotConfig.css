@@ -1,0 +1,10 @@
+.config_vert {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.config_whitespace {
+    height: 5px;
+    width: 5px;
+}

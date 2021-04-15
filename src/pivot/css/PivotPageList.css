@@ -1,0 +1,21 @@
+.ppl_container {
+    width:99%;
+    font-size: 8pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.ppl_title {
+    background-color: lightgray;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.ppl_dd {
+    font-size: 8pt;
+    width: 100%;
+}

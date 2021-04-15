@@ -1,0 +1,35 @@
+.pc_pad {
+    background-color: lightgray;
+    z-index: 10;
+    position: relative;
+}
+
+.pc_measure {
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.pc_title {
+    vertical-align: top;
+    background-color: lightblue;
+    color: black;
+    padding: 3px;
+    z-index: 5;
+}
+
+.pc_sum {
+    vertical-align: top;
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    padding: 3px;
+    z-index: 5
+}
+
+.pc_icon {
+    margin-left: 2px;
+}

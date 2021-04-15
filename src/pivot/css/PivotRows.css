@@ -1,0 +1,31 @@
+.pr_title {
+    vertical-align: top;
+    background-color: lightblue;
+    color: black;
+    padding: 3px;
+    z-index: 3;
+}
+
+.pr_sum {
+    vertical-align: top;
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    padding: 3px;
+    z-index: 3
+}
+.pr_total {
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    padding: 3px;
+    text-align:right;
+
+}
+
+.pr_value {
+    text-align:right
+}
+

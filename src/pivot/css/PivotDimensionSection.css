@@ -1,0 +1,14 @@
+
+.pds_container {
+    width: 99%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin: auto;
+}
+
+.pds_title {
+    background-color: lightgray;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+}

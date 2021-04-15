@@ -1,0 +1,83 @@
+.dialog_buttoncontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    padding: 4px;
+}
+
+.dialog_container {
+    position:  relative;
+    top: 0;
+    left:  0;
+    background-color: lightgray;
+    border: 3px solid blue;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.dialog_titlebar {
+    display: flex;
+    flex-direction: row;
+}
+
+.dialog_title {
+    width: 100%;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.dialog_text {
+    position: relative;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 4px;
+    width: 97%;
+    height: 88%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.dialog_x {
+    position: relative;
+    right: 0;
+    top: 0;
+    font-weight: bold;
+    font-size: large;
+    background-color: salmon;
+    color: white;
+    cursor: pointer;
+}
+
+.dialog_hidden {
+    position: relative;
+    top: -1000;
+    left: -1000;
+    height: 0px;
+    width: 0px;
+}
+
+.statusmsg_container {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    padding: 4px;
+    border: 2px black solid;
+    background-color: green;
+    color: white;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.statusmsg_container_error {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    padding: 4px;
+    border: 2px black solid;
+    background-color: red;
+    color: white;
+    box-shadow: 10px 10px 5px grey;
+}

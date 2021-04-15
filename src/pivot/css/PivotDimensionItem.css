@@ -1,0 +1,30 @@
+.pdi_item {
+
+    padding: 5px 2px 5px 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20px;
+    background-color: darkgray;
+    color: white;
+}
+
+.pdi_buttons {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.pdi_button {
+    margin-right: 4px;
+    margin-left: 4px;
+    width: 10px;
+    cursor: pointer;
+}
+
+.pdi_whitespace {
+    height: 5px;
+    width: 10px;
+}
